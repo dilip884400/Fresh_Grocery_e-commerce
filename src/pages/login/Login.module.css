@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://www.pennmedicine.org/-/media/images/miscellaneous/families/family_grocery_shopping.ashx");
+  background-size: cover;
+  background-position: center;
+}
+
+.form {
+  width: 80%;
+  max-width: 300px;
+  background-color: rgba(255, 254, 254, 0.242);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputContainer label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputContainer input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.data span {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loginButton {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.loginButton:hover {
+  background-color: #008b8b;
+}
+
+.loginButton:active {
+  background-color: #00ced1;
+}
+
+.linkText {
+  color: #000;
+}
+
+.registrationLink {
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .inputContainer input {
+    font-size: 16px;
+  }
+
+  .loginButton {
+    font-size: 16px;
+  }
+}

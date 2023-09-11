@@ -1,0 +1,166 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 1rem; */
+  padding: 0rem 3rem;
+  align-items: center;
+  background-color: black;
+  /* border-radius: 10px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-align: center;
+  color: lightgreen;
+  font-family: cursive;
+  margin-left: 0.5rem;
+}
+
+.nav_menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 1.8rem;
+  color: green;
+  font-weight: 600;
+}
+
+.nav_icons {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.user {
+  font-size: 1.3rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logout_btn{
+  border: none;
+  padding: .4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: rgb(71, 112, 9);
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.hamburger {
+  display: none;
+}
+.responsive {
+  display: none;
+}
+.cart_icons {
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.cart_icons span {
+  position: relative;
+  bottom: 0.5rem;
+  right: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: green;
+  padding: 0rem 0.3rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: sticky;
+    margin: 0 0.2rem;
+    padding: 0rem 0.5rem;
+    top: 0.5rem;
+  }
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    color: green;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .nav_menu {
+    display: none;
+  }
+
+  .responsive {
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: -1rem;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    padding: 2rem;
+    transition: all 0.5s ease;
+    height: 100vh;
+    color: #fff;
+    display: grid;
+  }
+
+  .responsive a {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    float: left;
+  }
+  .logo img {
+    width: 40px;
+  }
+  .logo h1 {
+    font-size: 0.9rem;
+  }
+  .user {
+    font-size: 1rem;
+    gap: 0.8rem;
+  }
+  .profile {
+    width: 30px;
+    height: 30px;
+  }
+  .hamburger {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar {
+    position: sticky;
+    top: 1.5rem;
+  }
+}

@@ -1,0 +1,126 @@
+.RegistrationPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?cs=srgb&dl=pexels-anna-shvets-3962285.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(182, 181, 181, 0.5);
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: rgba(16, 16, 16, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px 12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(26, 20, 20, 0.09) 0px -3px 5px;
+}
+
+.data p {
+  color: red;
+  font-size: 1rem;
+  margin-top: -1.2rem;
+  font-weight: 500;
+}
+
+.data h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.data input {
+  padding: 10px;
+  /* margin: -0.4em; */
+  border-radius: 5px;
+  border: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.data button {
+  margin-top: 1.5rem;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  background-color: rgb(7, 4, 45);
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.data span {
+  color: red;
+}
+
+button:hover {
+  background-color: #12125d;
+}
+
+@media screen and (max-width: 768px) {
+  .data {
+    padding: 20px;
+    width: 80vw;
+  }
+
+  .data label {
+    font-size: 1rem;
+  }
+
+  .data input {
+    font-size: 1rem;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .data button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .data span {
+    font-size: 1rem;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .data {
+    padding: 10px;
+    width: 90vw;
+  }
+
+  .data h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .data label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .data input {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .data button {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+
+  .data span {
+    font-size: 1rem;
+  }
+}

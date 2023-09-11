@@ -1,0 +1,55 @@
+.timer_container {
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5rem;
+  }
+  
+  .time_text {
+    display: flex;
+    margin-right: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .time_text h1 {
+    font-size: 2.2rem;
+  }
+  
+  .time_text h5 {
+    font-size: 0.9rem;
+  }
+  
+  
+  .time span{
+      font-size: 1.5rem;
+      font-weight: 600;
+  }
+
+
+
+@media screen and (max-width:500px) {
+  .time_text h1 {
+    font-size: 1.2rem;
+  }
+  
+  .time_text h5 {
+    font-size: 0.6rem;
+  }
+  
+  
+  .time span{
+      font-size: 1.2rem;
+      font-weight: 600;
+  }
+}
+
+
+

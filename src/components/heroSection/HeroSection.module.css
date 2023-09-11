@@ -1,0 +1,10 @@
+.container {
+  margin: 1rem;
+  background: #eee;
+}
+
+
+.container img {
+  width: 100%;
+    border-radius: .5rem;
+}

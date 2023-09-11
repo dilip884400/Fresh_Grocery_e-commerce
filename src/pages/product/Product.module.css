@@ -1,0 +1,42 @@
+.product_features{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.product_filter select{
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: lightgreen;
+    font-weight: 700;
+    border-radius: .4rem;
+}
+.product_filter select option{
+    background-color:gray;
+    color: black;
+}
+.product_search{
+    border: 3px solid green;
+    border-radius: .4rem;
+    padding: 1rem;
+    display: flex;
+    width: 50%;
+}
+
+.product_search input{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.search_icon{
+    display: flex;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:768px) {
+    .product_features{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}
